@@ -16,7 +16,7 @@ type CoinDetails struct {
 
 type DatabaseInterface interface {
 	GetUserLoginDetails(username string) *LoginDetails
-	GetUserCoins(username string) *CoinDetails
+	GetCoinDetails(username string) *CoinDetails
 	SetupDatabase() error
 }
 

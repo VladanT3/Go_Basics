@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/VladanT3/Go/API/internal/middleware"
+	middleware "github.com/VladanT3/Go/API/internal/middleware"
 	"github.com/go-chi/chi"
 	chimiddle "github.com/go-chi/chi/middleware"
 )
